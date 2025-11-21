@@ -68,6 +68,7 @@ npm install
 npm run dev
 
 ### 📫 Contacto
+```
 
 Si buscas un perfil Full Stack detallista, con un enfoque en la calidad del software (QA) y la eficiencia:
 - ✉️ **Email:** carlosmogo.work@gmail.com
