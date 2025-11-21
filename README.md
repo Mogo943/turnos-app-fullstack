@@ -1,41 +1,48 @@
-# API REST E-commerce Microservices
-Proyecto del Módulo 3 — Soy Henry | Full Stack Dev
+# Gestor de Turnos & Reservas (Full Stack)
+Aplicación Web Integral con Arquitectura Cliente-Servidor
 
 ---
 
-## Descripción  
-PM3-Project es una aplicación full stack desarrollada como parte del Módulo 3 del bootcamp de Soy Henry. Incluye backend REST con Node.js y frontend con Vite/React, integrados para ofrecer funcionalidades completas: autenticación, operaciones CRUD, lógica de negocio y validaciones.
+## 📋 Descripción
+Plataforma full stack diseñada para la gestión eficiente de turnos y usuarios. Este sistema integra un backend RESTful robusto con una interfaz de usuario moderna y reactiva, garantizando un flujo de datos seguro y una experiencia de usuario fluida.
+
+**Funcionalidades principales:**
+* Autenticación y gestión de usuarios.
+* Operaciones CRUD completas para la administración de reservas.
+* Validaciones de datos en ambos extremos (Front/Back).
+* Arquitectura escalable y modular.
 
 ---
 
-## User Stories
-[User Stories del proyecto](https://github.com/Mogo943/PM3-Project/blob/main/assets/UserStories.md)
+## 📄 User Stories
+Puedes ver el detalle de los requerimientos y flujos de usuario aquí:
+[User Stories del proyecto](https://github.com/Mogo943/turnos-app-fullstack/blob/main/assets/UserStories.md)
 
 ---
 
-## Tecnologías usadas
+## 🛠 Tecnologías usadas
 
-- **Backend**: Node.js, Express, TypeScript, bases de datos relacionales/no relacionales (PostgreSQL), ORM (TypeORM), enrutamiento, middlewares de seguridad  
-- **Frontend**: React, Vite, consumo de APIs REST, manejo de estados, componentes reutilizables  
-- **Testing / QA**: API testing.
-- **Otras herramientas**: Git/GitHub, Postman/Insomnia, variables de entorno.
+- **Backend**: Node.js, Express, TypeScript, PostgreSQL (Base de datos relacional), TypeORM, arquitectura REST.
+- **Frontend**: React, Vite, consumo de APIs, gestión de estados globales, componentes modulares y reutilizables.
+- **Quality Assurance**: API Testing y validación de endpoints.
+- **Herramientas**: Git/GitHub, Postman, gestión de variables de entorno.
 
 <p align="center">
-  <p>BACKEND</p>
+  <p><strong>BACKEND</strong></p>
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=express,js,nodejs,ts,postgres" />
   </a>
 </p>
 
 <p align="center">
-  <p>FRONTEND</p>
+  <p><strong>FRONTEND</strong></p>
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=css,html,js,ts,react,vite" />
   </a>
 </p>
 
 <p align="center">
-  <p>OTROS</p>
+  <p><strong>HERRAMIENTAS</strong></p>
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=git,github,npm,postman,vscode" />
   </a>
@@ -43,25 +50,22 @@ PM3-Project es una aplicación full stack desarrollada como parte del Módulo 3 
 
 ---
 
-## Instalación
+## 💻 Instalación y Despliegue
 
 ```bash
-# Clonar el repositorio
-git clone https://github.com/Mogo943/PM3-Project.git
-cd PM3-Project
+# 1. Clonar el repositorio
+git clone [https://github.com/Mogo943/turnos-app-fullstack.git](https://github.com/Mogo943/turnos-app-fullstack.git)
+cd turnos-app-fullstack
 
-# Backend
+# 2. Configurar Backend
 cd back
 npm install
-npm run dev  # o el script equivalente
+npm run dev
 
-# Frontend
+# 3. Configurar Frontend (en nueva terminal)
 cd ../front/vite-project
 npm install
 npm run dev
-```
-
----
 
 ### 📫 Contacto
 
