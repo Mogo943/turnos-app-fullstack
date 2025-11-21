@@ -1,4 +1,4 @@
-# User Stories M3
+# User Stories
 
 ## Actores
 - Usuarios logueados  
