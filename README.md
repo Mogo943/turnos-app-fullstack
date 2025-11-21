@@ -1,4 +1,4 @@
-# PM3-Project  
+# API REST E-commerce Microservices
 Proyecto del Módulo 3 — Soy Henry | Full Stack Dev
 
 ---
